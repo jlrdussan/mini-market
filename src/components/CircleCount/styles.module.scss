@@ -1,0 +1,15 @@
+@import "../../scss/variables/_colors";
+
+.circle {
+  align-items: center;
+  background-color: $demin;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+}
+
+.count {
+  color: $white;
+  font-family: "Roboto Bd";
+}

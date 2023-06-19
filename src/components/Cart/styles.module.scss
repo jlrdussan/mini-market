@@ -1,0 +1,20 @@
+@import "../../scss/variables/_colors";
+
+.container-cart {
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+
+.price {
+  color: $demin;
+  font-family: "Roboto Bd";
+}
+
+.cart {
+  height: 24px;
+  width: 22.31px;
+}
