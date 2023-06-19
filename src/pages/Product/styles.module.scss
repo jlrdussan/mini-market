@@ -1,0 +1,62 @@
+@import "../../scss/variables/_colors";
+
+@mixin btnn {
+  border: none;
+  color: $white;
+  cursor: pointer;
+  font-size: 20px;
+  height: 35px;
+  width: 35px;
+}
+
+.title {
+  color: $black;
+  font-family: "Roboto Bd";
+}
+
+.price {
+  color: $demin;
+  font-family: "Roboto Bd";
+  margin: 0 10px;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.product-detail {
+  align-items: center;
+  display: flex;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  width: 100%;
+
+  @media (max-width: 480px) {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.container-btn {
+  display: flex;
+  margin-left: auto;
+}
+
+.btn-add {
+  @include btnn;
+  background-color: $demin;
+}
+
+.btn-delete {
+  @include btnn;
+  background-color: $gray-siberian;
+}
+
+.description {
+  align-self: flex-start;
+  color: $gray;
+  margin: 10px 0;
+}
