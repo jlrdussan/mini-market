@@ -1,0 +1,8 @@
+node_modules
+**/.next/**
+**/_next/**
+**/dist/**
+coverage
+build
+.env
+setupTests.ts
