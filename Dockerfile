@@ -14,7 +14,7 @@ RUN npm install --force
 COPY . .
 
 # Construir la aplicación React para producción
-RUN npm run build
+# RUN npm run build
 
 # Etapa 2: Servir los archivos construidos usando Nginx
 FROM nginx:alpine
